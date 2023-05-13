@@ -1,0 +1,80 @@
+.journey {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.journey-titles {
+    display: flex;
+    gap: 3rem;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.juorney-plans {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 0 10rem;
+    color: white;
+}
+
+.juorney-plans>div:nth-child(2) {
+    transform: scale(1.1);
+    background: var(--planCard);
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 3px;
+    padding: 1rem;
+    width: 15rem;
+}
+
+.plan>svg {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--orange);
+}
+
+.plan>:nth-child(2) {
+    font-weight: bold;
+}
+
+
+.plan>:nth-child(3) {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.benefit {
+    font-size: 0.8rem;
+}
+
+/* .features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+} */
+
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.features>img {
+    width: 1rem;
+}

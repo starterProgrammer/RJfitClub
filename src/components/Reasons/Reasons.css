@@ -3,6 +3,7 @@
     display: flex;
     grid-template: 2rem;
     gap: 1rem;
+    height: 25rem;
 }
 
 .left-r {
