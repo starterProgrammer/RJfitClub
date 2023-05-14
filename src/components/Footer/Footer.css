@@ -1,0 +1,31 @@
+.Footer {
+    position: relative;
+}
+
+.Footer>hr {
+    border: 1px solid var(--lightgray);
+}
+
+.wrapper {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.footer-content {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer-content>img {
+    width: 2rem;
+    cursor: pointer;
+}
+
+.wrapper>img{
+    width: 10rem;
+    cursor: pointer;
+}
