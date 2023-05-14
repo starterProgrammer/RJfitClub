@@ -10,12 +10,15 @@ import Calories from '../../assets/calories.png'
 // Animation 
 import { motion } from 'framer-motion'
 
+// Auto calculate numbers 
+import NumberCounter from 'number-counter'
+
 export const Hero = () => {
 
     const transition = { type: 'spring', duration: 3 }
 
     return (
-        <div className='hero'>
+        <div className='hero' id='hero'>
             <div className='blur hero-blur'></div>
             <div className="left-h">
                 <Header />
@@ -49,17 +52,23 @@ export const Hero = () => {
                 {/* Figure Section */}
                 <div className='figure'>
                     <div>
-                        <span>+140</span>
+                        <span>
+                            <NumberCounter end={140} start={100} delay={4} preFix="+" />
+                        </span>
                         <span>expert couch</span>
                     </div>
 
                     <div>
-                        <span>+975</span>
+                        <span>
+                            <NumberCounter end={940} start={890} delay={4} preFix="+" />
+                        </span>
                         <span>MEMBERS JOINED</span>
                     </div>
 
                     <div>
-                        <span>+50</span>
+                        <span>
+                            <NumberCounter end={50} start={20} delay={4} preFix="+" />
+                        </span>
                         <span>FITNESS PROGRAMS</span>
                     </div>
                 </div>

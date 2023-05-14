@@ -17,7 +17,7 @@ export const Testimotinal = () => {
     const transition = { type: 'spring', duration: 3 }
 
     return (
-        <div className="Testimotinal">
+        <div className="Testimotinal" id='testimontials'>
 
             <div className='left-t'>
                 <span>Testimonials</span>

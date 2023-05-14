@@ -6,7 +6,7 @@ import { programsData } from '../../data/programsData'
 
 export const Programms = () => {
     return (
-        <div className='programms'>
+        <div className='programms' id='programms'>
 
             {/* Programm Title */}
             <div className='programms-titles'>

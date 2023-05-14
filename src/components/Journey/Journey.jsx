@@ -4,7 +4,7 @@ import tick from '../../assets/whiteTick.png'
 
 export const Journey = () => {
     return (
-        <div className="journey">
+        <div className="journey" id='plans'>
 
             <div className='blur juorney-blur-1'></div>
             <div className='blur juorney-blur-2'></div>
