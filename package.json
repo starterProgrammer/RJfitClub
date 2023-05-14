@@ -2,7 +2,7 @@
   "name": "fitclub",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{starterprogrammer}.github.io/{RJfitClub}",
+  "homepage": "http://starterprogrammer.github.io/RJfitClub",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
