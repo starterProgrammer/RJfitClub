@@ -17,6 +17,10 @@ export const Footer = () => {
 
                 <img src={logo} alt="" />
             </div>
+
+            <div className="blur blur-f blur-left"></div>
+            <div className="blur blur-f blur-center"></div>
+            <div className="blur blur-f blur-right"></div>
         </div>
     )
 }

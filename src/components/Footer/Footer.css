@@ -25,7 +25,32 @@
     cursor: pointer;
 }
 
-.wrapper>img{
+.wrapper>img {
     width: 10rem;
     cursor: pointer;
+}
+
+
+.blur-center {
+    left: 37%;
+    top: 6rem;
+    filter: blur(147px) !important;
+}
+
+.blur-f {
+    width: 22rem;
+    height: 9rem;
+    background: #ff7300;
+    filter: blur(127px);
+    border-radius: 12%;
+}
+
+.blur-right {
+    right: 0;
+    top: 6rem;
+}
+
+.blur-left {
+    left: 0;
+    top: 6rem;
 }

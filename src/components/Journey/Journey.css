@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    position: relative;
 }
 
 
@@ -77,4 +78,18 @@
 
 .features>img {
     width: 1rem;
+}
+
+.juorney-blur-2 {
+    height: 23rem;
+    right: 0;
+    top: 10rem;
+    width: 32rem;
+}
+
+.juorney-blur-1 {
+    height: 23rem;
+    left: 0;
+    top: 6rem;
+    width: 32rem;
 }

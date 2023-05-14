@@ -5,6 +5,9 @@ import tick from '../../assets/whiteTick.png'
 export const Journey = () => {
     return (
         <div className="journey">
+
+            <div className='blur juorney-blur-1'></div>
+            <div className='blur juorney-blur-2'></div>
             {/* Journey Title */}
             <div className='journey-titles'>
                 <span className='strok-text'>Ready to Start</span>
