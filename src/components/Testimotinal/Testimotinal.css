@@ -1,0 +1,88 @@
+.Testimotinal {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+}
+
+.left-t {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    flex: 1;
+    text-transform: uppercase;
+}
+
+.left-t>:nth-child(1) {
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.left-t>:nth-child(2),
+.left-t>:nth-child(3) {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.left-t>:nth-child(4) {
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: justify;
+    text-transform: none;
+}
+
+
+.right-t {
+    flex: 1 1;
+    position: relative;
+}
+
+
+.right-t>img {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+
+.right-t>:first-child {
+    background-color: initial;
+    border: 2px solid orange;
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.right-t>:first-child,
+.right-t>img {
+    height: 20rem;
+    position: absolute;
+    width: 17rem;
+}
+
+.right-t>:nth-child(2) {
+    background: var(--planCard);
+    height: 19rem;
+    position: absolute;
+    right: 7rem;
+    top: 4rem;
+    width: 17rem;
+}
+
+.arrows {
+    bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    left: 3rem;
+    position: absolute;
+}
+
+.arrows>img {
+    cursor: pointer;
+    width: 1.5rem;
+}
