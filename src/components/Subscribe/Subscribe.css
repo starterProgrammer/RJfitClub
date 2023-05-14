@@ -1,0 +1,55 @@
+.Subscribe {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.left-s {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    position: relative;
+    flex: 1;
+}
+
+.left-s>hr {
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+    position: absolute;
+    width: 10.5rem;
+}
+
+.right-s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: white;
+}
+
+.email-container {
+    background-color: gray;
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 2rem;
+}
+
+.email-container>input {
+    background-color: initial;
+    border: none;
+    color: var(--lightgray);
+    outline: none;
+}
+
+.btn-s {
+    background-color: var(--orange);
+    color: #fff;
+}
+
+::placeholder{
+    color: var(--lightgray);
+}
